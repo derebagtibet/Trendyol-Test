@@ -1,0 +1,208 @@
+{
+  "id": "78e8478e-5d50-44bc-8092-29c746714b70",
+  "version": "2.0",
+  "name": "trendyol",
+  "url": "https://www.trendyol.com",
+  "tests": [{
+    "id": "03e4981e-d841-4b18-951f-dafe33b10887",
+    "name": "Untitled",
+    "commands": [{
+      "id": "bec21014-979e-4549-bbf7-d8da1ac14a8a",
+      "comment": "",
+      "command": "open",
+      "target": "/butik/liste/2/erkek",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb1bb8eb-2da6-45e2-a0d3-8e23fd4fbeda",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86fe1050-16f3-40e4-a3d1-8ecb5d8790bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vQI670rJ",
+      "targets": [
+        ["css=.vQI670rJ", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='sfx-discovery-search-suggestions']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b6718ff-71b9-4189-b942-382125329aa9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.vQI670rJ",
+      "targets": [
+        ["css=.vQI670rJ", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='sfx-discovery-search-suggestions']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "tibet"
+    }, {
+      "id": "45bf4b6f-90ac-48e1-adf5-a53d861dbce5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.vQI670rJ",
+      "targets": [
+        ["css=.vQI670rJ", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='sfx-discovery-search-suggestions']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9e1811c2-2876-46b2-bab8-b9fbb9b6f3b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Anne & Çocuk",
+      "targets": [
+        ["linkText=Anne & Çocuk", "linkText"],
+        ["css=.tab-link:nth-child(3) > .category-header", "css:finder"],
+        ["xpath=//a[contains(text(),'Anne & Çocuk')]", "xpath:link"],
+        ["xpath=//div[@id='navigation-wrapper']/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/butik/liste/3/anne-cocuk')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Anne & Çocuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c67ca5c-e350-4e14-9c3c-1b26b40e61f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-card-wrppr:nth-child(1) .p-card-img-wr:nth-child(2)",
+      "targets": [
+        ["css=.p-card-wrppr:nth-child(1) .p-card-img-wr:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='search-app']/div/div/div/div[2]/div[4]/div/div/div/a/div/div/div[3]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6772",
+      "windowTimeout": 2000
+    }, {
+      "id": "827bb1ee-a1f1-4d60-a3cb-6d32fc20fef5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6772}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d540827b-b640-4f95-a6cb-8d5b96bc6036",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=1 Soru-Cevap",
+      "targets": [
+        ["linkText=1 Soru-Cevap", "linkText"],
+        ["css=.questions-summary-questions-summary", "css:finder"],
+        ["xpath=//div[@id='envoy']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/l-atelier-des-perles/coraileye-necklace-dogal-mercan-tasli-ve-el-yapimi-tibet-boncuklu-kolye-p-929024562/saticiya-sor?merchantId=949459')]", "xpath:href"],
+        ["xpath=//section/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1 Soru-Cevap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebd20369-0b12-430e-9870-514fa88489b0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-actions:nth-child(1) .add-to-cart-button-text",
+      "targets": [
+        ["css=.product-actions:nth-child(1) .add-to-cart-button-text", "css:finder"],
+        ["xpath=//div[@id='envoy']/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96a16cf1-fd24-4ca2-bc19-867b8404d63b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-actions:nth-child(1) .add-to-cart-button-text",
+      "targets": [
+        ["css=.product-actions:nth-child(1) .add-to-cart-button-text", "css:finder"],
+        ["xpath=//div[@id='envoy']/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d0de53e-1752-470a-b9e0-9ac78d907872",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_disabled_f1c74fc > .add-to-cart-button-text",
+      "targets": [
+        ["css=.\\_disabled_f1c74fc > .add-to-cart-button-text", "css:finder"],
+        ["xpath=//div[@id='envoy']/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b978d63-802e-47ff-a341-a86506c374e8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Siparişi Tamamla",
+      "targets": [
+        ["linkText=Siparişi Tamamla", "linkText"],
+        ["css=.completeOrder", "css:finder"],
+        ["xpath=//a[contains(text(),'Siparişi Tamamla')]", "xpath:link"],
+        ["xpath=//div[@id='sticky-header']/div/div/div[2]/div[2]/div/div[2]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sepetim/odeme')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Siparişi Tamamla')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f066ed3-d8ae-4f83-891e-1005d01d61e1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Siparişi Tamamla",
+      "targets": [
+        ["linkText=Siparişi Tamamla", "linkText"],
+        ["css=.completeOrder", "css:finder"],
+        ["xpath=//a[contains(text(),'Siparişi Tamamla')]", "xpath:link"],
+        ["xpath=//div[@id='sticky-header']/div/div/div[2]/div[2]/div/div[2]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sepetim/odeme')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Siparişi Tamamla')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bf6721c-742a-4986-86ba-bdf64ed53352",
+      "comment": "",
+      "command": "click",
+      "target": "css=.account-basket",
+      "targets": [
+        ["css=.account-basket", "css:finder"],
+        ["xpath=//div[@id='sticky-header']/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sepet')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06764f06-5d5b-4586-8d15-b1f47a63e913",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ty-link-btn-primary > span",
+      "targets": [
+        ["css=.ty-link-btn-primary > span", "css:finder"],
+        ["xpath=//div[@id='pb-container']/aside/div/div/div[5]/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sepeti Onayla')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3c07db00-f7f6-4310-ab89-106c0f5bfe97",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["03e4981e-d841-4b18-951f-dafe33b10887"]
+  }],
+  "urls": ["https://www.trendyol.com/"],
+  "plugins": []
+}

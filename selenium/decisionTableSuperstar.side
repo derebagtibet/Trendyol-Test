@@ -1,0 +1,178 @@
+{
+  "id": "86bd76e4-f310-4633-a5ba-7826758f0321",
+  "version": "2.0",
+  "name": "deciTableAdidas",
+  "url": "https://www.trendyol.com/sr?q=superstar&qt=superstar&st=superstar&os=1",
+  "tests": [{
+    "id": "19b2eb99-80a5-4534-807c-cd8f8d329a80",
+    "name": "deciTableAdidas",
+    "commands": [{
+      "id": "80e91f92-5508-49f5-bbab-9c1234b75272",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.trendyol.com/sr?q=superstar&qt=superstar&st=superstar&os=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a79e5470-3aa2-46b6-b5b3-42da3c8ec764",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1400x774",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b774223-6d3f-4b47-ab27-09abf0fc9a20",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Süpermarket",
+      "targets": [
+        ["linkText=Süpermarket", "linkText"],
+        ["css=.tab-link:nth-child(5) > .category-header", "css:finder"],
+        ["xpath=//a[contains(text(),'Süpermarket')]", "xpath:link"],
+        ["xpath=//div[@id='navigation-wrapper']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/butik/liste/16/supermarket')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Süpermarket')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5fc9f0c-242f-44de-866c-c742d31adce3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fltrs-wrppr:nth-child(2) .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1) .chckbox",
+      "targets": [
+        ["css=.fltrs-wrppr:nth-child(2) .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1) .chckbox", "css:finder"],
+        ["xpath=//div[@id='sticky-aggregations']/div/div[2]/div[3]/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b3c3f2e-952f-4001-8b24-074c96c125d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fltrs-wrppr:nth-child(3) .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1) .chckbox",
+      "targets": [
+        ["css=.fltrs-wrppr:nth-child(3) .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1) .chckbox", "css:finder"],
+        ["xpath=//div[@id='sticky-aggregations']/div/div[3]/div[3]/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5bf71a4-b72b-4c91-9e85-2ffb71798add",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fltrs-wrppr:nth-child(4) .fltr-srch-inpt",
+      "targets": [
+        ["css=.fltrs-wrppr:nth-child(4) .fltr-srch-inpt", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='sticky-aggregations']/div/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaed02fc-e309-4ffc-8626-5a3208b557a1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fltrs-wrppr:nth-child(4) .fltr-srch-inpt",
+      "targets": [
+        ["css=.fltrs-wrppr:nth-child(4) .fltr-srch-inpt", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='sticky-aggregations']/div/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "44"
+    }, {
+      "id": "45e8f592-cce6-4086-a111-576329df3ea2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fltrs-wrppr:nth-child(4) .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1) .chckbox",
+      "targets": [
+        ["css=.fltrs-wrppr:nth-child(4) .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1) .chckbox", "css:finder"],
+        ["xpath=//div[@id='sticky-aggregations']/div/div[4]/div[3]/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c02fa83c-5f95-4390-9e8a-965075083810",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fltrs-wrppr:nth-child(6) > .fltr-cntnr-ttl-area",
+      "targets": [
+        ["css=.fltrs-wrppr:nth-child(6) > .fltr-cntnr-ttl-area", "css:finder"],
+        ["xpath=//div[@id='sticky-aggregations']/div/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/div/div/div/div[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88eef9b1-2c33-4c9b-bdff-cb81b5725ee4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-3",
+      "targets": [
+        ["css=.color-3", "css:finder"],
+        ["xpath=//div[@id='sticky-aggregations']/div/div[6]/div[2]/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad4648c9-3046-4d96-aaa5-7b829d61fe06",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Mavi",
+      "targets": [
+        ["linkText=Mavi", "linkText"],
+        ["css=.fltr-item-wrppr:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='sticky-aggregations']/div/div[5]/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sr?wb=33&wcl=3,9&vr=size|44&lc=1172&q=superstar&qt=superstar&st=superstar&os=1')]", "xpath:href"],
+        ["xpath=//div[2]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Mavi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bbd046e-507b-4398-8f87-6688ce78cf5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-card-wrppr:nth-child(1) .p-card-img-wr:nth-child(3)",
+      "targets": [
+        ["css=.p-card-wrppr:nth-child(1) .p-card-img-wr:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='search-app']/div/div/div/div[2]/div[4]/div/div/div/a/div/div/div[3]/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8341",
+      "windowTimeout": 2000
+    }, {
+      "id": "7148b5bb-f9f3-4c63-bad5-214f5e133f5e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8341}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e30e785-67dc-41f9-9b4d-ca3e2ada7c67",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=h1.product-title",
+      "targets": [],
+      "value": "10000"
+    }, {
+      "id": "c93e0094-06a6-421a-8afc-c74cb05c64a8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h1.product-title",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "14c2d3f1-2317-4e30-bc14-f57c3e894013",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["19b2eb99-80a5-4534-807c-cd8f8d329a80"]
+  }],
+  "urls": ["https://www.trendyol.com/sr?q=superstar&qt=superstar&st=superstar&os=1"],
+  "plugins": []
+}
